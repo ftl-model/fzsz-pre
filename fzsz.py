@@ -12,7 +12,7 @@ scaler = joblib.load('prescaler.pkl')
 
 
 # Define feature names
-feature_names = ["Female age", "Primary infertility", "BMI", "FSH", "E2", "AFC"]
+feature_names = ["female_age", "yuanfa", "bmi", "FSH", "E2", "AFC"]
 
 ## Streamlit user interface
 st.title("PreIVF Predictor")
